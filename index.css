@@ -149,12 +149,7 @@ footer{
         height: 180px;
         background-color: white;
         border-radius: 12px;
-        /* margin: 0 auto 20px auto; */
         padding: 20px;
-        /* box-shadow: hsl(234, 12%, 34%); */
-        /* width: 320px;
-        height: 190px;
-        margin: 0px; */
     }
     div > p{
         font-size: 14px;
@@ -180,7 +175,5 @@ footer{
         margin-right: 2%;
         width: 14%;
         height: 50px;
-        /* padding-bottom: 50px;
-        padding-right: 50px; */
     }
 }
