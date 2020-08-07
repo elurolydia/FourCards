@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+/* @font-face {
+    font-family: "Poppins";
+    src: url((https://fonts.google.com/specimen/Poppins)); */
+
+body{
+    background-color: hsl(0, 0%, 98%);
+    padding: 0px;
+    width: 100%;
+    font-family: Poppins;
+    overflow-x: hidden;
+}
+
+header{
+    width: 80%;
+    /* max-width: 100%; */
+    margin: 60px auto 70px auto;
+    align-content: center;
+    padding: 0px;
+}
+
+header > p{
+    position: relative;
+    color: hsl(234, 12%, 34%);
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+}
+#first_header{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: .4em;
+    text-align: center;
+}
+
+#second_header{
+    width: 100%;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    /* margin-top: 3px;  */
+}
+
+
+main{
+    /* position: relative; */
+    width: 80%;
+    margin: 40px auto 0 auto
+}
+
+div{
+    position: relative;
+    width: 80%;
+    height: 180px;
+    background-color: white;
+    border-radius: 12px;
+    margin: 0 auto 20px auto;
+    padding: 3%;
+}
+
+div > p{
+    font-size: 14px;
+    color: hsl(229, 6%, 66%);
+}
+
+h1,h2{
+    color: hsl(234, 12%, 34%);
+}
+
+h2{
+    font-size: 17px;
+}
+#supervisor{
+    border-top:hsl(180, 62%, 55%) solid 5px;
+}
+
+#team{
+    border-top: hsl(0, 78%, 62%) solid 5px;
+}
+
+#Karma{
+    border-top: hsl(34, 97%, 64%) solid 5px;
+}
+
+#calculator{
+    border-top:  hsl(212, 86%, 64%) solid 5px;
+}
+
+img{
+    position: relative;
+    display: block;
+    margin-left: 83%;
+    /* margin-bottom: 1%; */
+    margin-top: 10%;
+    margin-right: 2%;
+    width: 14%;
+    height: 50px;
+    /* padding-bottom: 50px;
+    padding-right: 50px; */
+}
+
+footer{
+    width: 50%;
+    text-align: center;
+    margin: 3px auto 
+}
+@media screen and (min-width: 768px) {
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        align-content: center;
+    }
+    header p{
+        /* width: 100%; */
+        margin: 0 auto;
+        max-width: 500px;
+        align-content: center;
+        font-size: 14px;
+    }
+
+    #first_header{
+        font-size: 30px;
+    }
+    
+    #second_header{
+        letter-spacing: 1px;
+        font-size: 30px;
+    }
+    
+    main{
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        padding: 0px;
+        /* width: 80%; */
+        width: auto;
+        margin: 0px auto;
+        /* align-content: center; */
+        /* margin: 0px auto; */
+        
+    }
+
+    div{
+        width: 300px;
+        height: 180px;
+        background-color: white;
+        border-radius: 12px;
+        /* margin: 0 auto 20px auto; */
+        padding: 20px;
+        /* box-shadow: hsl(234, 12%, 34%); */
+        /* width: 320px;
+        height: 190px;
+        margin: 0px; */
+    }
+    div > p{
+        font-size: 14px;
+    }
+
+    #supervisor{
+        margin-right: 20px;
+        margin-top: 33%;
+
+    }
+
+   
+    #calculator{
+        margin-left: 20px;
+        margin-top: 33%;
+    }
+
+    img{
+        position: relative;
+        display: block;
+        margin-left: 83%;
+        margin-bottom: 1%;
+        margin-right: 2%;
+        width: 14%;
+        height: 50px;
+        /* padding-bottom: 50px;
+        padding-right: 50px; */
+    }
+}
